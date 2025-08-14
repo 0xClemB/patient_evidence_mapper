@@ -1,0 +1,5 @@
+name,moa,indications,contraindications,black_box,monitoring
+adalimumab,TNF inhibitor,"RA, PsA, AS","severe heart failure, active infections","serious infections, malignancy",TB screening prior; monitor for infections
+tofacitinib,JAK inhibitor,"RA, PsA, UC",active serious infections,"thrombosis, serious infections, malignancy, MACE","CBC, lipids; evaluate VTE risk"
+belimumab,BLyS-specific inhibitor,SLE,hypersensitivity,—,"infections, depression"
+anifrolumab,type I interferon receptor antibody,SLE,—,—,herpes zoster; vaccinate beforehand
