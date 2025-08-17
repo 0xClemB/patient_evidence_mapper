@@ -9,4 +9,4 @@ def generate_patient_plan(patient, guidelines, trials, drugs):
     if any(d.get("moa")=="JAK inhibitor" for d in drugs):
         points.append("Assess VTE/CV risk before JAKs; consider TNF/non-JAK biologic if high risk.")
     if patient.get("pregnancy_planning"): points.append("Avoid teratogens; coordinate with obstetrics.")
-    return {"plan_summary": " ";join(points) if points else "Optimize csDMARDs and reassess in 8–12 weeks.", "citations": [g["id"] for g in guidelines]+[t["id"] for t in trials]}
+    return {"plan_summary": " ".join(points) if points else "Optimize csDMARDs and reassess in 8–12 weeks.", "citations": [g["id"] for g in guidelines]+[t["id"] for t in trials]}
